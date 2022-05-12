@@ -46,7 +46,7 @@ li ::first-letter {
 }
 .weather-temperature strong {
   color: rgb(33, 33, 33);
-  font-size: 74px;
+  font-size: 64px;
   line-height: -1;
   font-weight: 400;
 }
@@ -61,5 +61,19 @@ li ::first-letter {
 }
 .day {
   margin-left: -28px;
-  margin-top: -13px;
+  margin-top: -1px;
+}
+.gitlink {
+  text-decoration: none;
+}
+.active {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+.active :hover {
+  text-decoration: none;
+}
+.farn {
+  text-decoration: none;
 }
