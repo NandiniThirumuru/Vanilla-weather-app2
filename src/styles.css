@@ -27,11 +27,14 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-transform: capitalize;
+
   color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+li ::first-letter {
+  text-transform: capitalize;
 }
 
 .weather-temperature img {
@@ -47,7 +50,6 @@ li {
   line-height: -1;
   font-weight: 400;
 }
-
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
@@ -56,4 +58,8 @@ li {
 .forecast {
   margin-block-start: 25px;
   margin-left: 35px;
+}
+.day {
+  margin-left: -28px;
+  margin-top: -13px;
 }
