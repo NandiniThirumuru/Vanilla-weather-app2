@@ -77,3 +77,17 @@ li ::first-letter {
 .farn {
   text-decoration: none;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-minimum {
+  opacity: 0.5;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
