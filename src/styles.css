@@ -66,6 +66,7 @@ li ::first-letter {
 .gitlink {
   text-decoration: none;
   text-align: center;
+  margin-left: 270px;
 }
 .active {
   text-decoration: none;
